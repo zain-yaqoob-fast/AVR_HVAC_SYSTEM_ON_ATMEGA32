@@ -1,0 +1,62 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\Debug\CODE.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>CODE.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>CODE.map</FILE>
+  <FILE>CODE.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>54</LINE></RESET>
+  <DELAY_MS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>371</LINE></DELAY_MS>
+  <LCD_CMD><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>349</LINE></LCD_CMD>
+  <MAIN_LOOP><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>124</LINE></MAIN_LOOP>
+  <WAIT_TEMP><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>133</LINE></WAIT_TEMP>
+  <WAIT_HUMID><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>139</LINE></WAIT_HUMID>
+  <KEY_NOT_PRESSED><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>173</LINE></KEY_NOT_PRESSED>
+  <KEY_PRESSED><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>158</LINE></KEY_PRESSED>
+  <UPDATE_LEDS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>179</LINE></UPDATE_LEDS>
+  <LCD_CLEAR><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>343</LINE></LCD_CLEAR>
+  <SET_HUMID_LOW><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>189</LINE></SET_HUMID_LOW>
+  <SET_HUMID_HIGH><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>192</LINE></SET_HUMID_HIGH>
+  <UPDATE_TEMP_LEDS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>195</LINE></UPDATE_TEMP_LEDS>
+  <SET_TEMP_COLD><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>205</LINE></SET_TEMP_COLD>
+  <SET_TEMP_HOT><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>208</LINE></SET_TEMP_HOT>
+  <CHECK_LCD_MODE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>214</LINE></CHECK_LCD_MODE>
+  <LCD_FAN_MODE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>226</LINE></LCD_FAN_MODE>
+  <LCD_TEMP_MODE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>218</LINE></LCD_TEMP_MODE>
+  <STATE_COLD_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>247</LINE></STATE_COLD_MSG>
+  <STATE_HOT_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>256</LINE></STATE_HOT_MSG>
+  <STATE_NORMAL><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>238</LINE></STATE_NORMAL>
+  <STATE_INTAKE_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>265</LINE></STATE_INTAKE_MSG>
+  <STATE_EXHAUST_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>274</LINE></STATE_EXHAUST_MSG>
+  <DO_NORMAL_UPDATE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>242</LINE></DO_NORMAL_UPDATE>
+  <DO_COLD_UPDATE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>251</LINE></DO_COLD_UPDATE>
+  <SHOW_HOT_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>299</LINE></SHOW_HOT_MSG>
+  <DO_HOT_UPDATE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>260</LINE></DO_HOT_UPDATE>
+  <SHOW_COLD_MSG><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>287</LINE></SHOW_COLD_MSG>
+  <DO_INTAKE_UPDATE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>269</LINE></DO_INTAKE_UPDATE>
+  <SHOW_INTAKE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>309</LINE></SHOW_INTAKE>
+  <DO_EXHAUST_UPDATE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>278</LINE></DO_EXHAUST_UPDATE>
+  <SHOW_EXHAUST><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>325</LINE></SHOW_EXHAUST>
+  <LCD_CHAR><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>360</LINE></LCD_CHAR>
+  <DELAY_FAST><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>381</LINE></DELAY_FAST>
+  <DL_1><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>374</LINE></DL_1>
+  <DL_2><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\CODE\CODE\main.asm</FILE><LINE>383</LINE></DL_2>
+ </LABELS>
+</ASSEMBLER_INFO>

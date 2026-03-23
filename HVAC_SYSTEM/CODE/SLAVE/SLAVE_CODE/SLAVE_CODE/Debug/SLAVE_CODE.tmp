@@ -1,0 +1,56 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega32"</DEVICE>
+ <WORKING_DIR>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m32def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\Debug\SLAVE_CODE.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>SLAVE_CODE.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>SLAVE_CODE.map</FILE>
+  <FILE>SLAVE_CODE.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>10</LINE></start>
+  <RESET><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>33</LINE></RESET>
+  <DELAY_MS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>289</LINE></DELAY_MS>
+  <CHECK_CHIP_ID><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>277</LINE></CHECK_CHIP_ID>
+  <SENSOR_FOUND><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>109</LINE></SENSOR_FOUND>
+  <ERROR_LOOP><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>102</LINE></ERROR_LOOP>
+  <DELAY_FAST><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>299</LINE></DELAY_FAST>
+  <TWI_START><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>310</LINE></TWI_START>
+  <TWI_WRITE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>324</LINE></TWI_WRITE>
+  <TWI_STOP><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>319</LINE></TWI_STOP>
+  <MAIN_LOOP><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>132</LINE></MAIN_LOOP>
+  <TWI_READ_NACK><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>334</LINE></TWI_READ_NACK>
+  <WAIT_ADC><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>165</LINE></WAIT_ADC>
+  <UPDATE_TEMP_LEDS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>230</LINE></UPDATE_TEMP_LEDS>
+  <UPDATE_HUMID_LEDS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>247</LINE></UPDATE_HUMID_LEDS>
+  <UPDATE_AIR_LEDS><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>262</LINE></UPDATE_AIR_LEDS>
+  <RS485_SEND_PACKET><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>195</LINE></RS485_SEND_PACKET>
+  <WAIT_TX_1><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>206</LINE></WAIT_TX_1>
+  <WAIT_TX_2><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>212</LINE></WAIT_TX_2>
+  <WAIT_TX_COMPLETE><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>218</LINE></WAIT_TX_COMPLETE>
+  <T_COLD><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>238</LINE></T_COLD>
+  <T_HOT><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>242</LINE></T_HOT>
+  <H_LOW><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>254</LINE></H_LOW>
+  <H_HIGH><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>257</LINE></H_HIGH>
+  <AIR_BAD><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>270</LINE></AIR_BAD>
+  <DM_Loop><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>292</LINE></DM_Loop>
+  <DF_Loop><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>302</LINE></DF_Loop>
+  <WAIT_STA><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>313</LINE></WAIT_STA>
+  <WAIT_WR><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>328</LINE></WAIT_WR>
+  <WAIT_RN><FILE>C:\Users\Zain Yaqoob\Desktop\Embedded_HVAC_SYSTEM\SLAVE_CODE\SLAVE_CODE\main.asm</FILE><LINE>337</LINE></WAIT_RN>
+ </LABELS>
+</ASSEMBLER_INFO>
